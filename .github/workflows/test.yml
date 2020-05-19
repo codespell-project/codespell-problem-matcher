@@ -1,0 +1,17 @@
+name: Test
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - uses: ./
+    - name: Check sort with disorder
+      run: sort -c test/test.txt || true
+

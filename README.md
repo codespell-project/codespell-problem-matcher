@@ -1,11 +1,13 @@
-# xmllint-problem-matcher
+# sort-problem-matcher
 
-This problem matcher lets you show errors from `xmllint` as annotation in GitHub Actions.
+This problem matcher lets you show errors from GNU `sort` as annotation in GitHub Actions.
+
+Based on korelstar's xmllint-problem-matcher.
 
 ## Usage
 
-Add the step to your workflow, before `xmllint` is called.
+Add the step to your workflow, before `sort -c` is called.
 
 ```yaml
-    - uses: korelstar/xmllint-problem-matcher@v1
+    - uses: codespell-project/sort-problem-matcher@v1
 ```
