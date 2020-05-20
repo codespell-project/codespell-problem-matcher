@@ -1,9 +1,9 @@
 # sort-problem-matcher
 
-This problem matcher lets you show errors from GNU `sort -c` as annotation in
+This problem matcher lets you show errors from GNU `sort` as annotation in
 GitHub Actions.
 
-Based on korelstar's xmllint-problem-matcher.
+Based on [korelstar](https://github.com/korelstar)'s [xmllint-problem-matcher](https://github.com/korelstar/xmllint-problem-matcher).
 
 ## Inputs
 
