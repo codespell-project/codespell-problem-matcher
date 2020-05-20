@@ -1,10 +1,10 @@
 {
 	"problemMatcher": [
 		{
-			"owner": "sort-matcher",
+			"owner": "codespell-matcher",
 			"pattern": [
 				{
-					"regexp": "^sort: (.+):(\\d+):\\s+(.+)$",
+					"regexp": "^(.+):(\\d+):\\s+(.+)$",
 					"file": 1,
 					"line": 2,
 					"message": 3

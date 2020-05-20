@@ -1,6 +1,6 @@
-# sort-problem-matcher
+# codespell-problem-matcher
 
-This problem matcher lets you show errors from GNU `sort` as annotation in
+This problem matcher lets you show errors from `codespell` as annotation in
 GitHub Actions.
 
 Based on [korelstar](https://github.com/korelstar)'s [xmllint-problem-matcher](https://github.com/korelstar/xmllint-problem-matcher).
@@ -15,8 +15,8 @@ No outputs are generated apart from a configured problem matcher.
 
 ## Usage
 
-Add the step to your workflow, before `sort -c` is called.
+Add the step to your workflow, before `codespell` is called.
 
 ```yaml
-    - uses: codespell-project/sort-problem-matcher@v1
+    - uses: codespell-project/codespell-problem-matcher@v1
 ```
