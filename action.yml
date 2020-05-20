@@ -2,8 +2,8 @@ name: 'sort problem matcher'
 author: 'Peter Newman'
 description: 'Shows GNU sort errors as annotation (with file and code line) in GitHub Actions'
 runs:
-  using: 'bash'
-  main: 'add-matcher.sh'
+  using: 'node12'
+  main: 'index.js'
 branding:
   icon: 'check-square'
   color: 'green'
