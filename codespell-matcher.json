@@ -8,7 +8,12 @@
 					"file": 1,
 					"line": 2,
 					"message": 3
-				},
+				}
+			]
+		},
+		{
+			"owner": "codespell-matcher",
+			"pattern": [
 				{
 					"regexp": "^WARNING:\\s+(.+):\\s+(.+)$",
 					"file": 2,
