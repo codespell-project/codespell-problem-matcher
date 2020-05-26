@@ -15,7 +15,7 @@
 			"owner": "codespell-matcher-warning",
 			"pattern": [
 				{
-					"regexp": "^(WARNING):\\s+([^:]+):\\s+(.+)$",
+					"regexp": "^(WARNING):\\s+([^:]+):\\s+(.+)\\s+$",
 					"file": 3,
 					"severity": 1,
 					"message": 2
