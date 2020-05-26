@@ -1,7 +1,7 @@
 {
 	"problemMatcher": [
 		{
-			"owner": "codespell-matcher",
+			"owner": "codespell-matcher-error",
 			"pattern": [
 				{
 					"regexp": "^(.+):(\\d+):\\s+(.+)$",
@@ -12,7 +12,7 @@
 			]
 		},
 		{
-			"owner": "codespell-matcher",
+			"owner": "codespell-matcher-warning",
 			"pattern": [
 				{
 					"regexp": "^WARNING:\\s+(.+):\\s+(.+)$",
