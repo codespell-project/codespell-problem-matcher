@@ -8,6 +8,11 @@
 					"file": 1,
 					"line": 2,
 					"message": 3
+				},
+				{
+					"regexp": "^WARNING:\\s+(.+):\\s+(.+)$",
+					"file": 2,
+					"message": 1
 				}
 			]
 		}
