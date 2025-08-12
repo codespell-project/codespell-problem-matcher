@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     - uses: actions/setup-python@v5
     - run: pip install codespell
     - uses: ./
@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     - uses: actions/setup-python@v5
     - run: pip install git+https://github.com/codespell-project/codespell.git
     - uses: ./
